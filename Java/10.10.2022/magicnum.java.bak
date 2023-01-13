@@ -1,0 +1,27 @@
+import java.util.*;//1+4+3+2 = 10 = 1+0 = 1;
+class magicnum 
+{
+	static Scanner s = new Scanner(System.in);
+	public static void main(String[] args) 
+	{
+//		System.out.println("Enter a number to check");
+		int a = 1432;
+		int b = a;
+		int sum = 0;
+		int x = 0;
+		while (b>9)
+		{
+			sum=0;
+			while (b>0)
+			{
+			x=b%10;
+			sum+=x;
+			b=b/10;
+			System.out.println(sum);
+			System.out.println(b);
+			}
+			b=sum;
+			System.out.println(sum);
+		}
+	}
+}

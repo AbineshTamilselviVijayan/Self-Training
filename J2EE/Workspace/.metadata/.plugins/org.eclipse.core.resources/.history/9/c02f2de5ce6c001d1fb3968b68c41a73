@@ -1,0 +1,9 @@
+package firstType;
+
+import com.mysql.cj.jdbc.Driver;
+
+public class TypeOne {
+	public static void main(String[] args) {
+		java.sql.Driver d = new Driver();
+	}
+}

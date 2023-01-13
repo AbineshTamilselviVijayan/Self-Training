@@ -1,0 +1,9 @@
+class test 
+{
+	char i = 65;
+	public static void main(String[0] args) 
+	{
+		test t = new test();
+		System.out.println(t.i);
+	}
+}

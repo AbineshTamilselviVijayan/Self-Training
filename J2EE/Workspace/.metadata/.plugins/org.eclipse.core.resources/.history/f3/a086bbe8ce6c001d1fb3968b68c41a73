@@ -1,0 +1,18 @@
+package firstType;
+
+import java.sql.SQLException;
+
+import com.mysql.cj.jdbc.Driver;
+
+public class TypeOne {
+	public static void main(String[] args) {
+		try {
+			java.sql.Driver d = new Driver();
+			
+			System.out.println("Registration successful");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

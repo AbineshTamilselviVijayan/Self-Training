@@ -1,0 +1,10 @@
+1.static variables
+2.class boolean
+3.8 bytes
+4.stack area
+5.this()
+6.break;
+7.default
+8.instanceof
+9.final
+10.class arrayindexoutofboundsexception

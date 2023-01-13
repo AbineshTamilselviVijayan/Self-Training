@@ -1,0 +1,22 @@
+class car
+{
+	car()
+	{
+		System.out.println("Welcome to car show");
+		this("BMW");
+	}
+	car(String a)
+	{
+		System.out.println("The model displayed here is "+a);
+		this(150000);
+	}
+	car(double p)
+	{
+		System.out.println("The estimated cost is "+p);
+		this('x');
+	}
+	car(char b)
+	{
+		System.out.println("The colour varients are "+b);
+	}
+}

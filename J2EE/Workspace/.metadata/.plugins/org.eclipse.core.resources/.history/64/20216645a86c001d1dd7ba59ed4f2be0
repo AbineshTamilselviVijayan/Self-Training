@@ -1,0 +1,12 @@
+package calculator;
+import java.util.*;
+public class CalcMain {
+	static Scanner s = new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("**********WELCOME**********");
+		System.out.println("Please select anyone to perform");
+		System.out.println("1.");
+		System.out.println("**********WELCOME**********");
+	}
+
+}

@@ -1,0 +1,8 @@
+class random
+{
+	public static void main(String[] args) 
+	{
+		int y = Math.ramdom();
+		System.out.println(y);
+	}
+}
